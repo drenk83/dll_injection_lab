@@ -39,9 +39,7 @@
 *.app
 
 # Build directories
-build/
-Build/
-build-*/
+/build/
 
 # CMake generated files
 CMakeFiles/
@@ -66,3 +64,22 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+ipch/
+*.recipe
+*.tlog
+*.idb
+*.lastbuildstate
+
+x64/
+Win32/
