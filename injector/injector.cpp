@@ -224,7 +224,7 @@ DWORD GetPIDByName(const WCHAR* processName) {
         return 0;
     }
     do {
-        if (wcscmp(pe32.szExeFile, processName) == 0) {
+        if (_wcsicmp(pe32.szExeFile, processName) == 0) {
             pid = pe32.th32ProcessID;
             break;
         }
